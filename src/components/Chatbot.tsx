@@ -45,7 +45,7 @@ const Chatbot = () => {
       - Name: Trishar M.
       - Education: Pursuing a B.Tech in Computer Science with a specialization in Cyber Security at Presidency University.
       - Career Goal: To become a front-end or full-stack developer. He is passionate about creating visually appealing and user-friendly interfaces.
-      - Skills: React, Next.js, TypeScript, JavaScript, PHP, Java (for Android), HTML/CSS, Tailwind CSS, MySQL, Git & GitHub.
+      - Skills: React, Next.js, TypeScript, JavaScript, PHP, Java (for Android), HTML/CSS, Tailwind CSS, MySQL, Git & GitHub, Framer Motion, Three.js/R3F, and the Gemini API.
       - Projects: He has built a 'Study Verse' student dashboard and a 'Restaurant Management System'.
       - Hobbies: Photography, cars, badminton, and swimming.
       - Contact: Trisharmahesh@gmail.com or his LinkedIn profile.
@@ -54,10 +54,12 @@ const Chatbot = () => {
     `;
 
     try {
-      let chatHistory = [];
+      // --- FIX IS HERE ---
+      const chatHistory = []; // Changed 'let' to 'const'
       chatHistory.push({ role: "user", parts: [{ text: prompt }] });
       const payload = { contents: chatHistory };
-      const apiKey = "AIzaSyCoT6ixOfzcQCqhOJBQJA6GmEGv6bQ6enk" // Leave as-is
+      
+      const apiKey = process.env.NEXT_PUBLIC_GEMINI_API_KEY;
       const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${apiKey}`;
       
       const response = await fetch(apiUrl, {
