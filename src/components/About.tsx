@@ -22,7 +22,7 @@ const About = () => {
           <h3 className="text-xl font-semibold">My Tech Stack</h3>
           <ul className="grid grid-cols-2 gap-4">
             <li className="text-cyan-400">▸ Java</li>
-            <li className="text-cyan-400">▸ Python</li?
+            <li className="text-cyan-400">▸ Python</li>
             <li className="text-cyan-400">▸ React</li>
             <li className="text-cyan-400">▸ Next.js</li>
             <li className="text-cyan-400">▸ TypeScript</li>
