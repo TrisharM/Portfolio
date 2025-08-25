@@ -10,10 +10,10 @@ const About = () => {
         {/* Left Column: Your Bio */}
         <div className="space-y-4 text-slate-300">
           <p>
-            Hello! I'm Trishar, a B.Tech Computer Science student at Presidency University, specializing in Cyber Security. My true passion lies at the intersection of design and development, where I focus on creating visually appealing and intuitive user interfaces.
+            Hello! I&apos;m Trishar, a B.Tech Computer Science student at Presidency University, specializing in Cyber Security. My true passion lies at the intersection of design and development, where I focus on creating visually appealing and intuitive user interfaces.
           </p>
           <p>
-            I love the challenge of transforming an idea into a seamless digital experience that people enjoy using. When I'm not coding, you can find me exploring my interests in photography, cars, badminton, or swimming.
+            I love the challenge of transforming an idea into a seamless digital experience that people enjoy using. When I&apos;m not coding, you can find me exploring my interests in photography, cars, badminton, or swimming.
           </p>
         </div>
         
@@ -21,18 +21,18 @@ const About = () => {
         <div className="space-y-4">
           <h3 className="text-xl font-semibold">My Tech Stack</h3>
           <ul className="grid grid-cols-2 gap-4">
-            <li className="text-cyan-400">▸ Java</li>
-            <li className="text-cyan-400">▸ Python</li>
             <li className="text-cyan-400">▸ React</li>
             <li className="text-cyan-400">▸ Next.js</li>
             <li className="text-cyan-400">▸ TypeScript</li>
-            <li className="text-cyan-400">▸ JavaScript</li>
+            <li className="text-cyan-400">▸ JavaScript (ES6+)</li>
             <li className="text-cyan-400">▸ Tailwind CSS</li>
             <li className="text-cyan-400">▸ Framer Motion</li>
             <li className="text-cyan-400">▸ Three.js / R3F</li>
+            <li className="text-cyan-400">▸ Gemini API</li>
             <li className="text-cyan-400">▸ PHP</li>
             <li className="text-cyan-400">▸ MySQL</li>
-            <li className="text-cyan-400">▸ Android Studio</li>
+            <li className="text-cyan-400">▸ Java (for Android)</li>
+            <li className="text-cyan-400">▸ Git & GitHub</li>
           </ul>
         </div>
       </div>
