@@ -12,7 +12,7 @@ const Hero = () => {
       <div className="relative z-10 space-y-4">
         <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">
-            Hi, I'm Trishar
+            Hi, I&apos;m Trishar
           </span>
         </h1>
         <p className="text-lg md:text-2xl text-slate-300">
