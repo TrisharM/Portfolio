@@ -33,8 +33,7 @@ const FloatingParticles = () => {
                   count={particles.length / 3}
                   array={particles}
                   itemSize={3} 
-                  args={[]}                   />
-      </bufferGeometry>
+/>      </bufferGeometry>
       <pointsMaterial size={0.015} color="#00ffff" />
     </points>
   );
