@@ -17,7 +17,7 @@ const Contact = () => {
     <section id="contact" className="w-full max-w-5xl py-20 text-center">
       <h2 className="text-4xl font-bold mb-4">Get In Touch</h2>
       <p className="text-slate-300 mb-8 max-w-2xl mx-auto">
-        I'm currently open to new opportunities and would love to hear from you. Whether you have a question or just want to connect, feel free to reach out!
+        I&apos;m currently open to new opportunities and would love to hear from you. Whether you have a question or just want to connect, feel free to reach out!
       </p>
       <a 
         href="mailto:Trisharmahesh@gmail.com"
